@@ -2,12 +2,6 @@
 
 [![Lint, Build, & Release](https://github.com/disruptmedia/dcj-widget/actions/workflows/lint-and-release.yml/badge.svg?branch=main)](https://github.com/disruptmedia/dcj-widget/actions/workflows/lint-and-release.yml)
 
-## TODO
-
-- [ ] Webpack
-  - [ ] Copying src/index.html to dist/index.html (Currently in the `package.json scripts`)
-  - [ ] Source Maps for Production
-  - [ ] Minifying widget.js (Think it's automatic)
 ## Usage
 
 ### JavaScript
