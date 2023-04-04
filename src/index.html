@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Death Care Jobs Widget</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="widget.js" data-count="10" data-container="div#listings" data-utm-source="development"
+        data-utm-campaign="development" defer></script>
+    <style>
+        * {
+            background-color: aqua;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="#">Death Care Jobs Widget</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+
+    <div id="app" class="container">
+
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Look below for the widget. We have learned that by embedding it along with a completely
+                            different CSS framework, we can ensure that our widget's styles do not override the page's
+                            styles.
+                            We have used <a href="https://github.com/stefanzweifel/vue-tailwind-css-modules-demo/"
+                                target="_blank">Stefan Zweifel's example</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">&nbsp;</div>
+        <div class="row">
+            <div class="col widget">
+                <div id="listings"></div>
+            </div>
+        </div>
+        <div class="row">&nbsp;</div>
+        <div class="row">&nbsp;</div>
+    </div>
+</body>
+
+</html>
